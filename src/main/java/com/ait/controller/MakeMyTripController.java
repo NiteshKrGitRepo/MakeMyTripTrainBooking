@@ -38,6 +38,6 @@ public class MakeMyTripController {
 		Ticket ticketinfo = service.getTicket(ticketId);
 		model.addAttribute("tickets", ticketinfo);
 		return "ticketin";
-
+      int x= 10;
 	}
 }
